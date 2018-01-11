@@ -80,6 +80,7 @@ Target_start() {
         dbg "Couldn't start target $TARGET"
         return $OCF_ERR_GENERIC
     fi
+    dbg "Leaving Target_start() with success"
     return $OCF_SUCCESS
 }
 
