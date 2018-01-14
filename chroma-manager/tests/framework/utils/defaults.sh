@@ -114,8 +114,8 @@ set_defaults() {
         export LUSTRE_SERVER_URL="$BASE_URL/server/axis-distro/el7/axis-ib_stack/inkernel/builds/$LUSTRE_REVIEW_BUILD/archive/artifacts/"
         export LUSTRE_CLIENT_URL="$BASE_URL/client/axis-distro/el7/axis-ib_stack/inkernel/builds/$LUSTRE_REVIEW_BUILD/archive/artifacts/"
         # these should be determined from the above
-        export LUSTRE_SERVER_REPO_FILE="/etc/yum.repos.d/build.whamcloud.com_lustre-reviews_configurations_axis-arch_x86_64_axis-build_type_server_axis-distro_el7_axis-ib_stack_inkernel_builds_${LUSTRE_REVIEW_BUILD}_archive_artifacts_.repo"
-        export LUSTRE_CLIENT_REPO_FILE="/etc/yum.repos.d/build.whamcloud.com_lustre-reviews_configurations_axis-arch_x86_64_axis-build_type_client_axis-distro_el7_axis-ib_stack_inkernel_builds_${LUSTRE_REVIEW_BUILD}_archive_artifacts_.repo"
+        export LUSTRE_SERVER_REPO_FILE="/etc/yum.repos.d/build.whamcloud.com_jobs-pub_lustre-reviews_configurations_axis-arch_x86_64_axis-build_type_server_axis-distro_el7_axis-ib_stack_inkernel_builds_${LUSTRE_REVIEW_BUILD}_archive_artifacts_.repo"
+        export LUSTRE_CLIENT_REPO_FILE="/etc/yum.repos.d/build.whamcloud.com_jobs-pub_lustre-reviews_configurations_axis-arch_x86_64_axis-build_type_client_axis-distro_el7_axis-ib_stack_inkernel_builds_${LUSTRE_REVIEW_BUILD}_archive_artifacts_.repo"
     else
         BASE_URL="https://downloads.hpdd.intel.com/public/lustre/lustre-2.10.2/el7/"
         export LUSTRE_SERVER_URL="$BASE_URL/server/"
